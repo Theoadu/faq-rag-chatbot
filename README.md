@@ -1,5 +1,5 @@
 # FAQ RAG Chatbot
-
+![alt text](<Screenshot 2025-11-17 at 11.42.24 AM.png>)
 A production-ready Retrieval-Augmented Generation (RAG) chatbot for answering HR frequently asked questions using vector search and large language models.
 
 ## 📋 Table of Contents
