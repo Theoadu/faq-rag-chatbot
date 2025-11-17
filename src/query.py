@@ -4,6 +4,7 @@ import argparse
 from openai import OpenAI
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
+from rich import print
 from dotenv import load_dotenv
 from utils import logger, setup_logging, moderate_content
 
