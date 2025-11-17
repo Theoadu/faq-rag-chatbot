@@ -341,7 +341,7 @@ faq-rag-chatbot/
 
 4. **Build the vector index:**
    ```bash
-   uv run python src/build_index.py
+   uv run src/build_index.py
    ```
    
    This will:
@@ -353,7 +353,7 @@ faq-rag-chatbot/
 
 5. **Verify installation:**
    ```bash
-   uv run python src/query.py --question "What is the PTO policy?"
+   uv run src/query.py --question "What is the PTO policy?"
    ```
 
 ## 📖 Usage
@@ -362,7 +362,7 @@ faq-rag-chatbot/
 
 **Ask a question:**
 ```bash
-uv run python src/query.py --question "How many days of PTO do employees get?"
+uv run src/query.py --question "How many days of PTO do employees get?"
 ```
 
 **Response format:**
@@ -398,7 +398,7 @@ print(f"Sources: {len(chunks)} chunks")
 If you update `data/faq_document.txt`, rebuild the index:
 
 ```bash
-uv run python src/build_index.py
+uv run src/build_index.py
 ```
 
 ### Example Questions
@@ -438,13 +438,13 @@ Current test suite validates:
 
 ```bash
 # Test safe query
-uv run python src/query.py --question "What is the PTO policy?"
+uv run src/query.py --question "What is the PTO policy?"
 
 # Test empty query
-uv run python src/query.py --question ""
+uv run src/query.py --question ""
 
 # Test moderation (should be blocked)
-uv run python src/query.py --question "How to hack the system?"
+uv run src/query.py --question "How to hack the system?"
 ```
 
 ## 📊 Evaluation
