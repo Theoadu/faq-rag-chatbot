@@ -1,7 +1,23 @@
-{
-  "user_question": "How do I request remote work?",
-  "system_answer": "Employees may work remotely up to 3 days per week with manager approval. Remote work requests must be submitted via the HR portal at least 5 business days in advance.",
-  "chunks_related": [
-    "Remote Work Guidelines\nEmployees may work remotely up to 3 days per week with manager approval. Remote work requests must be submitted via the HR portal at least 5 business days in advance. Employees are expected to maintain core collaboration hours (10 AM–3 PM local time) regardless of location."
-  ]
-}
+[
+  {
+    "user_question": "How many PTO days do full-time employees get per year?",
+    "system_answer": "Full-time employees accrue 15 days of PTO per year, prorated for partial years. Unused PTO does not roll over into the next calendar year and is forfeited.",
+    "chunks_related": [
+      "Paid Time Off (PTO) Policy\nFull-time employees accrue 15 days of PTO per year, prorated for partial years. PTO begins accruing on the first day of employment and is available for use after 90 days. Unused PTO does not roll over into the next calendar year and is forfeited."
+    ]
+  },
+  {
+    "user_question": "What is the deadline for new hires to complete onboarding paperwork?",
+    "system_answer": "New hires must complete all onboarding paperwork within 3 business days of their start date.",
+    "chunks_related": [
+      "Employee Onboarding Process\nNew hires must complete all onboarding paperwork within 3 business days of their start date. This includes tax forms, direct deposit setup, and acknowledgment of company policies. Failure to complete onboarding on time may delay payroll processing."
+    ]
+  },
+  {
+    "user_question": "Can I work remotely every day?",
+    "system_answer": "No, employees may work remotely up to 3 days per week with manager approval. Remote work requests must be submitted via the HR portal at least 5 business days in advance.",
+    "chunks_related": [
+      "Remote Work Guidelines\nEmployees may work remotely up to 3 days per week with manager approval. Remote work requests must be submitted via the HR portal at least 5 business days in advance. Employees are expected to maintain core collaboration hours (10 AM–3 PM local time) regardless of location."
+    ]
+  }
+]
